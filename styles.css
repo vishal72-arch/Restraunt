@@ -68,7 +68,6 @@ header{
     border: 5px solid black;
     border-radius: 20px;
     box-shadow: 10px 20px 30px black;
-    cursor:pointer;
     
 }
 
@@ -92,4 +91,15 @@ ul{
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+}
+
+.btn{
+    background-color: rgb(236, 130, 130);
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+    opacity: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+
 }
