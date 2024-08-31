@@ -39,6 +39,7 @@ header{
     font-weight: bold ;
     font-size:18px;
     cursor: pointer;
+    margin: 30px;
 }
 
 .child2 IMG{
@@ -50,11 +51,12 @@ header{
     height: 200px;
     border: 5px solid black;
     margin: 10px;
+    border-radius: 20px;
 }
 
 .main{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .main h3{
@@ -72,4 +74,22 @@ header{
 
 section{
     margin: 50px;
+}
+
+.nested{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.top{
+    margin: 30px 550px 30px 700px;
+    width: 200px;
+    height: 60px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
 }
