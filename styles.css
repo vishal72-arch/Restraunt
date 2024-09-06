@@ -35,7 +35,7 @@ header{
     color: whitesmoke;
     text-decoration-thickness: px ;
     padding: 30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold ;
     font-size:18px;
     cursor: pointer;
@@ -49,7 +49,6 @@ header{
 .image{
     width:fit-content;
     height: 200px;
-    border: 5px solid black;
     margin: 10px;
     border-radius: 20px;
 }
@@ -65,10 +64,7 @@ header{
 }
 
 .inner{
-    border: 5px solid black;
-    border-radius: 20px;
     box-shadow: 10px 20px 30px black;
-    
 }
 
 section{
@@ -100,6 +96,5 @@ ul{
     border-radius: 3px;
     opacity: 1;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    cursor: pointer;
-
+    cursor:pointer;
 }
